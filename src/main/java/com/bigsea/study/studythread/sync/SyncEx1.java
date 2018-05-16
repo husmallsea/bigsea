@@ -39,7 +39,9 @@ public class SyncEx1 {
     }
 
 
-
+    /**
+     * 修饰代码块
+     */
     public void count(){
         synchronized (this) {
             for (int i = 0; i < 800; i++) {
@@ -48,6 +50,10 @@ public class SyncEx1 {
         }
     }
 
+    /**
+     * 修饰方法
+     * @param i
+     */
     public synchronized void count1(int i){
         count1++;
     }
