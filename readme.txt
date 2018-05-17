@@ -45,4 +45,17 @@
                 |------------------|
 
 
-    有序性：
+    有序性：happends-before原则；
+
+    总结：
+        原子性：Atomic包，CAS算法，synchronized,Lock;
+        可见性：synchronized,volatile;
+        有序性：happends-before;
+
+
+
+
+
+
+
+
